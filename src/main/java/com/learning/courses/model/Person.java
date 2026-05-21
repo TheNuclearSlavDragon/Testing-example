@@ -43,6 +43,6 @@ public class Person {
   private List<Course> tutoringCourses;
 
   @OneToMany(cascade = CascadeType.ALL, mappedBy = "person")
-  private List<Person> contacts;
+  private List<Contact> contacts;
 
 }

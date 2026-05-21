@@ -2,5 +2,8 @@ package com.learning.courses.model.enums;
 
 public enum ContactType {
     EMAIL,
-    PHONE
+    PHONE,
+    HOME_ADDRESS,
+    MAILING_ADDRESS,
+    OTHER
 }
